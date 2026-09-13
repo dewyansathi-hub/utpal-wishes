@@ -1,0 +1,46 @@
+[build]
+publish = "."
+functions = "netlify/functions"
+
+[[edge_functions]]
+function = "wish-meta"
+path = "/birthday/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/anniversary/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/wedding/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/congrats/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/love/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/friendship/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/thankyou/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/luck/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/getwell/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/eid/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/christmas/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/newyear/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/farewell/*"
+[[edge_functions]]
+function = "wish-meta"
+path = "/custom/*"
